@@ -2,11 +2,10 @@ package hu.nive.ujratervezes.zarovizsga.kennel;
 
 public class Husky extends Dog {
 
-    private int happiness;
+    private int happiness = super.getHappiness();
 
     public Husky(String name) {
         super(name);
-        this.happiness = super.getHappiness();
     }
 
     @Override
